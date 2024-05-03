@@ -1,0 +1,22 @@
+{
+    "name": "easygco/easygco-public-api-sdk-php",
+    "description": "EasyGCO Public API SDK PHP Library v1.0.0",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "homepage": "https://easygco.com/",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "EasyGCO\\PublicAPI\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "EasyGco Payment Services LLC",
+            "email": "info@easygco.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
